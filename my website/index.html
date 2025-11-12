@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <h1 class="logo">MyPortfolio</h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <div class="hero-content">
+      <h2>Hi, I'm <span>M.Khizer</span></h2>
+      <p>Web Developer | Designer | Creator</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I'm a passionate web developer with a knack for creating clean,
+      responsive, and user-friendly websites. I love learning new technologies
+      and building creative digital experiences.
+    </p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Project One</h3>
+        <p>A cool project I built using HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="project-card">
+        <h3>Project Two</h3>
+        <p>Another awesome project showcasing my frontend skills.</p>
+      </div>
+      <div class="project-card">
+        <h3>Project Three</h3>
+        <p>Yet another example of my clean, creative design approach.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form action="https://formspree.io/f/xdkykoov" method="POST">
+      <label>
+        Your Name
+        <input type="text" name="name" required />
+      </label>
+      <label>
+        Your Email
+        <input type="email" name="_replyto" required />
+      </label>
+      <label>
+        Message
+        <textarea name="message" rows="5" required></textarea>
+      </label>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Your Name. Built with ❤️ and Formspree.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
